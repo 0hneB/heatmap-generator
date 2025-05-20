@@ -1,20 +1,6 @@
-# Enhanced Heatmap Generator
+#Heatmap Generator
 
 A desktop application for creating customizable geographic heatmaps from KML and GeoJSON data.
-
-## Features
-
-- Modern UI with dark/light theme support
-- Multiple visualization styles for heatmaps
-- Interactive web-based outputs
-- Data analysis tools for geographic data
-- Batch processing capability
-- Export to HTML, PNG, and PDF formats
-- Real-time preview of changes
-- Customizable borders and map styles
-- Command line interface for automation
-
-## Requirements
 
 - Python 3.7 or higher
 - Dependencies (automatically installed):
@@ -38,7 +24,7 @@ python heatmap_generatorV2.py
 
 ## Basic Usage
 
-1. Launch the application
+1. create a.bat file and launch the application
 2. Select KML data file and GeoJSON boundary file
 3. Click "Load Files" to process data
 4. Choose heatmap style, border style, and map style
@@ -60,16 +46,8 @@ Options:
 
 ## Advanced Features
 
-- **Custom Style Editor**: Create and save your own heatmap styles
+- **Custom Style Editor**: Create and save your own heatmap styles (buggy)
 - **Batch Processing**: Process multiple KML/GeoJSON pairs at once
-- **Data Analysis**: Explore statistics, distributions, and hotspots
-
-## Configuration
-
-Settings are stored in:
-- `~/.heatmap_generator/config.json`
-- `~/.heatmap_generator/recent_files.json`
-- `~/.heatmap_generator/heatmap_generator.log`
 
 ## License
 
